@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Latihan Revou</title>
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+
 <body>
-  
+  <div class="card-container">
+<div class="card-inside">
+  <form class="input-sec">
+    <label for="celcius">Celcius</label>
+  <input name="celcius" id="input" type="number" placeholder="Masukkan Satuan Celcius...">
+  </form>
+<span>
+  <button type="submit" id="konversi" class="btn">konversi</button>
+  <button type="submit" onclick="hapus()" class="btn">Reset</button>
+  <button type="submit" id="reverse" class="btn">Reverse</button>
+</span>
+<form class="fah-input">
+  <label for="fahrenheit">Fahrenheit</label>
+<input name="Fahrenheit" id="fahrenheit"  type="number" placeholder="Masukkan Satuan Fahrenheit...">
+</form>
+<form class="how">
+ <label for="Cara Kalkulasi">Cara   Kalkulasi</label>
+ <input type="none" id="rumusElement" placeholder="cara kalkulasi" disabled>
+</form>
+</div>
+<script src="js/index.js"></script>
 </body>
+
 </html>
